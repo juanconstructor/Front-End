@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/menú.css">
+    <link rel="stylesheet" href="CSS/inicio.css">
+    <link rel="icon" href="iconos/Logo MB.svg">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Menú</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <nav>
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="menú.html">Menú</a></li>
+                <li><a href="comunidad.html">Comunidad</a></li>
+                <li class="nav-item dropdown ms-5 me-5">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Opciones
+                    </a>
+                    <ul class="dropdown-menu ms-5">
+                    <li><a class="dropdown-item" href="cerrar-sesión.html">Cerrar sesión</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="all">
+        <a href="#" class="btn-1" id="edit-button"><button>Editar</button></a>
+        <a href="#" class="btn-2" id="save-button"><button>Guardar</button></a>
+        <h1 class="titulom">Menú</h1>
+        <br>
+        <div class="menu-contenido">
+            <h3 class="subtitulo">Comida Rápida</h3> <br>
+            <p class="parrafo" contenteditable="false" id="salchipapa-mini">Salchipapa mini........................................................................................................................................................................................................................... 25.000</p>
+            <p class="parrafo" contenteditable="false" id="salchipapa-todo-terreno">Salchipapa todo terreno.............................................................................................................................................................................................................. 25.000</p>
+            <p class="parrafo" contenteditable="false" id="hamburguesa-sencilla">Hamburguesa sencilla................................................................................................................................................................................................................. 30.000</p>
+            <p class="parrafo" contenteditable="false" id="hamburguesa-extra">Hamburguesa extra..................................................................................................................................................................................................................... 40.000</p>
+            <p class="parrafo" contenteditable="false" id="pizza-familiar">Pizza Familiar.............................................................................................................................................................................................................................. 50.000</p>
+            <p class="parrafo" contenteditable="false" id="pizza-personal">Pizza personal............................................................................................................................................................................................................................. 20.000</p>
+            <p class="parrafo" contenteditable="false" id="lasagna">Lasagna (todas).......................................................................................................................................................................................................................... 18.000</p>
+            <p class="parrafo" contenteditable="false" id="perro-caliente-extra">Perro caliente extra..................................................................................................................................................................................................................... 20.000</p>
+        </div>
+        <br>
+    
+        <div class="menu-contenido">
+            <h3 class="subtitulo">Comida Rápida</h3> <br>
+                    <p class="parrafo">Salchipapa mini........................................................................................................................................................................................................................... 25.000</p>
+                    <p class="parrafo">Salchipapa todo terreno.............................................................................................................................................................................................................. 25.000</p>
+                    <p class="parrafo">Hamburguesa sencilla................................................................................................................................................................................................................. 30.000</p>
+                    <p class="parrafo">Hamburguesa extra..................................................................................................................................................................................................................... 40.000</p>
+                    <p class="parrafo">Pizza Familiar.............................................................................................................................................................................................................................. 50.000</p>
+                    <p class="parrafo">Pizza personal............................................................................................................................................................................................................................. 20.000</p>
+                    <p class="parrafo">Lasagna (todas).......................................................................................................................................................................................................................... 18.000</p>
+                    <p class="parrafo">Perro caliente extra..................................................................................................................................................................................................................... 20.000</p>
+                </div>
+                <br>
+
+                <div class="menu-contenido">
+                    <h3 class="subtitulo">Pura proteína y vegetariano</h3> <br>
+                    <p class="parrafo">Huevos duros, 500 gr de pechuga de pollo, espinaca................................................................................................................................................................. 40.000</p>
+                    <p class="parrafo">Ensalda romana con queso parmesano...................................................................................................................................................................................... 25.000</p>
+                    <p class="parrafo">Pastel de pollo sin glúten............................................................................................................................................................................................................. 25.000</p>
+                </div>
+                <br>
+
+                <div class="menu-contenido">
+                    <h3 class="subtitulo">Bebidas</h3> <br>
+                    <p class="parrafo">Jugos naturales........................................................................................................................................................................................................................... 40.000</p>
+                    <p class="parrafo">Gaseosas.................................................................................................................................................................................................................................... 25.000</p>
+                    <p class="parrafo">Bebidas calientes........................................................................................................................................................................................................................ 25.000</p>
+                </div>
+
+                <div id="successModal" class="modal">
+                    <div class="modal-content">
+                        <p id="successMessage">Cambios guardados con éxito</p>
+                        <div>
+                            <button id="continueButton" class="continue-button">Continuar</button>
+                        </div>
+                    </div>
+                </div>
+    </main>
+    <br>
+    <br>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure class="iconos">
+                    <a href="#">
+                        <img src="iconos/1.png" alt="" class="logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h4>Contáctenos</h4>
+                <ul>
+                    <li><a href="#">Línea de atención: 601-7894526</a></li>
+                    <li><a href="#">Escribenos a Whatsapp: 3175894162</a></li>
+                    <li><a href="#">Email: muybravo@gmail.com</a></li>
+                    <li><a href="#">Carrera 24 # 17 - 180 Bogotá D.C</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4>Sobre nosotros</h4>
+                <ul>
+                    <li><a href="#">Trabaja con nosotros</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Referidos</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4>Ayuda</h4>
+                <ul>
+                    <li><a href="#">Centro de ayuda</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/menú.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
